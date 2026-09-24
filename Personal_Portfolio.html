@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+</head>
+<body>
+    <header class="fixed top-0 left-0 w-full h-[120px] bg-white md:h-[60px] lg:h-[80px]">
+        <nav class="flex flex-col gap-1 items-center justify-center md:flex-row md:gap-6  ">
+            <div class="flex items-center justify-between gap-6 md:gap-2 lg:gap-6">
+                <div class=" flex-none w-[40px] h-[40px] md:w-[60px] md:h-[60px] lg:my-2 my-1 mx-1 flex justify-center text-white items-center bg-purple-300 font-bold rounded-full">N</div>
+                <div class="font-display text-2xl text-plum my-1 mx-2 tracking-tight lg:text-3xl">Nyameyie</div>
+            </div>
+                
+
+                <div class="flex items-center justify-between gap-12 my-2 ">
+                    <ul class="flex justify-between gap-2 md: gap-12 lg:text-xl xl:text-lg">
+                        <a href="#about"><li class="hover:text-purple-400 font-medium">About</li></a>
+                        <a href="#education"><li class="hover:text-purple-400 font-medium">Education</li></a>
+                        <a href="#skills"><li  class="hover:text-purple-400 font-medium">Tech Stack</li></a>
+                        
+                    </ul>
+
+                    <button class="bg-purple-300 w-28 h-10 md:w-30 md:h-12 px-2  rounded-full hover:text-white hover:bg-purple-400 lg:text-xl">
+                        Contact Me
+                    </button>
+                </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="about" class=" pt-40  bg-gradient-to-r from-white to-purple-200 md:pt-20 lg:py-30 ">
+        <div class="flex flex-wrap justify-center px-10 sm:px-20 ">
+            <div class=" w-full sm:w-[500px] lg:w-[600px] xl:w-[700px] 3xl:w-[1000px] ">
+                <h1 class="font-bold text-4xl lg:text-5xl pb-4 font-[Poppins]">Hello, I'm <span class="text-purple-500">Nyameyie Ansah</span></h1>
+                <p class="font-medium text-lg lg:text-xl font-[Inter]">I'm a Computer Science student, and honestly, coding wasn't just something I picked up to get a degree, it's turned into something I actually want to get good at. I'm still early in the journey, learning Web and Mobile App Development from the ground up, figuring out how to build things that actually work, not just things that look nice in a tutorial. But I don't want to stop at "I can build an app." I'm really interested in how AI fits into all of this, how you take a normal app and make it a bit smarter. Something that learns from how people use it, or helps them without them having to think too hard about it. I don't know it all yet, but I'd rather learn it properly than just bolt an API onto something and call it "AI-powered." So that's basically where I'm at right now: still learning the fundamentals of building for web and mobile, and slowly picking up how to add real intelligence to what I build, not for the sake of it, but because I want to make things that are actually useful to people.</p>
+                <div>
+                    <h2 class="py-16 font-bold text-3xl font-[Poppins] lg:text-4xl">Contact</h2>
+                    <div class="flex flex-col sm:flex-row font-[inter] ">
+                        <div class=" flex mb-2 mr-20 md:mr-40 lg:mr-60 ">
+                            <div class="flex items-center justify-center bg-purple-300 rounded-full w-10 h-10   ">
+                                <i class="fa-regular fa-envelope text-xl "></i>
+                            </div>
+                            <p class="pt-1 px-2 lg:text-xl">nanaabaansah282@gmail.com</p>
+                        </div>
+                        <div class=" flex ">
+                            <div class="flex items-center justify-center bg-purple-300 rounded-full w-10 h-10   ">
+                               <i class="fa-solid fa-phone text-xl "></i>
+                            </div>
+                            <p class="pt-1 px-2 lg:text-xl">+233538584834</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="">
+                <img src="WhatsAppImage.jpeg" alt="My picture" class=" pt-10 h-[560px] w-[400px] lg:w-[310px] lg:h-[500px] 2xl:w-[400px] 2xl:h-[560px] rounded-full mb-10 md:ml-20 ">
+            </div>
+        </div>
+        
+        
+    </section>
+
+    <!-- Education/Skills Section -->
+    <section id="education" class="bg-gradient-to-r from-white to-purple-100 py-10 px-10 md:px-52  xl:px-20">
+        <div class="flex justify-center gap-50 lg:gap-60 lg:w-[700px] xl:w-full ">
+            <div class="w-[500px] lg:w-[600px]  ">
+                <h2 class="py-4 text-3xl font-bold font-[Poppins] lg:text-4xl">Education</h2>
+                <ul class="text-md font-medium font-[Inter] lg:text-xl">
+                    <li>Kwame Nkrumah University of Science and Technology | 2025 - Present</li>
+                    <li class="py-2">Wesley Girls' High School | 2022 - 2024</li>
+                </ul>
+            </div>
+            <div class="w-[200px] xl:w-[300px]">
+                <h2 class="py-4 text-3xl font-bold font-[Poppins] lg:text-4xl">Skills</h2>
+                <ul class="text-md font-lg font-[Inter] lg:text-xl">
+                    <li>Teamwork</li>
+                    <li>Responsible</li>
+                    <li>Well-Organized</li>
+                    <li>Responsible</li>
+                </ul>
+            </div>
+            
+        </div>
+        
+        
+        
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="skills" class="bg-gradient-to-r from-purple-50 to-purple-200 py-6 tracking-tight flex justify-center ">
+        <div class="w-full px-12 ">
+            <div class="py-4 text-center  2xl:text-center">
+                <h2 class="text-3xl font-bold font-[Poppins] lg:text-4xl">Tech Stack</h2>
+            </div>
+            <div class="flex flex-col items-center gap-20 2xl:flex-row justify-center">
+                <div class="bg-purple-50 w-[500px] py-4 px-6 mx-4 rounded-lg md:w-[600px] lg:w-[800px] 2xl:w-[600px] 3xl:w-[800px]">
+                    <h3 class="text-xl lg:text-2xl font-semibold text-center pb-2 text-purple-400 font-[Poppins]">Currently Learning</h3>
+                    <div class="flex gap-3 font-[Inter]">
+                        <div class="w-[150px] h-[180px] lg:w-[180px] 2xl:w-[150px] 3xl:w-[180px] bg-white rounded-lg ">
+                            <div class="flex items-center justify-center text-purple-400 text-5xl h-[160px] lg:h-[150px]">
+                                <i class="fa-brands fa-html5"></i>
+                            </div>
+                            <div class="flex items-end justify-center lg:text-xl">
+                                <p>HTML</p>
+                            </div>
+                        </div>
+                        <div class="w-[150px] h-[180px] lg:w-[180px] 2xl:w-[150px] 3xl:w-[180px] bg-white rounded-lg ">
+                            <div class="flex items-center justify-center text-purple-400 text-5xl h-[160px] lg:h-[150px]">
+                                <i class="fa-brands fa-css3"></i>
+                            </div>
+                            <div class="flex items-end justify-center lg:text-xl">
+                                <p>CSS</p>
+                            </div>
+                        </div>
+                        <div class="w-[150px] h-[180px] lg:w-[180px] 2xl:w-[150px] 3xl:w-[180px] bg-white rounded-lg ">
+                            <div class="flex items-center justify-center text-purple-400 text-5xl h-[160px] lg:h-[150px]">
+                                <i class="devicon-tailwindcss-plain "></i>
+                            </div>
+                            <div class="flex items-end justify-center lg:text-xl">
+                                <p>Tailwind</p>
+                            </div>
+                        </div>
+                        <div class="w-[150px] h-[180px] lg:w-[180px] 2xl:w-[150px] 3xl:w-[180px] bg-white rounded-lg ">
+                            <div class="flex items-center justify-center text-purple-400 text-5xl h-[160px] lg:h-[150px]">
+                                <i class="fa-brands fa-js"></i>
+                            </div>
+                            <div class="flex items-end justify-center lg:text-xl">
+                                <p>JavaScript</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="bg-purple-50 w-[500px] py-4 px-6 mx-4 rounded-lg bg-purple-50 w-[500px] py-4 px-6 mx-4 rounded-lg md:w-[600px] lg:w-[800px] 2xl:w-[600px] 3xl:w-[800px]">
+                    <h3 class="text-xl lg:text-2xl font-semibold text-center pb-2 text-purple-400 font-{Poppins}">Yet To Explore</h3>
+                    <div class="flex gap-3 font-[Inter]">
+                        <div class="w-[150px] h-[180px] lg:w-[180px] 2xl:w-[150px] 3xl:w-[180px] bg-white rounded-lg ">
+                            <div class="flex items-center justify-center text-purple-400 text-5xl h-[160px] lg:h-[150px]">
+                                <i class="fa-brands fa-react"></i>
+                            </div>
+                            <div class="flex items-end justify-center lg:text-xl">
+                                <p>React</p>
+                            </div>
+                        </div>
+                        <div class="w-[150px] h-[180px] lg:w-[180px] 2xl:w-[150px] 3xl:w-[180px] bg-white rounded-lg ">
+                            <div class="flex items-center justify-center text-purple-400 text-5xl h-[160px] lg:h-[150px]">
+                                <i class="fa-brands fa-react"></i>
+                            </div>
+                            <div class="flex items-end justify-center lg:text-xl">
+                                <p>React Native</p>
+                            </div>
+                        </div>
+                        <div class="w-[150px] h-[180px] lg:w-[180px] 2xl:w-[150px] 3xl:w-[180px] bg-white rounded-lg ">
+                            <div class="flex items-center justify-center text-purple-400 text-5xl h-[160px] lg:h-[150px]">
+                                <i class="fa-brands fa-python"></i>
+                            </div>
+                            <div class="flex items-end justify-center lg:text-xl">
+                                <p>Python/AI</p>
+                            </div>
+                        </div>
+                        <div class="w-[150px] h-[180px] lg:w-[180px] 2xl:w-[150px] 3xl:w-[180px] bg-white rounded-lg ">
+                            <div class="flex items-center justify-center text-purple-400 text-5xl h-[160px] lg:h-[150px]">
+                                <i class="fa-brands fa-java"></i>
+                            </div>
+                            <div class="flex items-end justify-center lg:text-xl">
+                                <p>Java</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        
+    </section>
+
+    <footer class="bg-purple-50 border-t border-purple-100 py-10 px-6">
+  <div class="max-w-5xl mx-auto flex flex-col items-center gap-6 text-center">
+
+    <!-- Name / Brand -->
+    <div class="flex items-center gap-2">
+      <div class="w-8 h-8 lg:w-12 lg:h-12 rounded-full bg-purple-400 text-white flex items-center justify-center font-heading font-bold">N</div>
+      <span class="font-heading font-semibold text-lg lg:text-2xl">Nyameyie</span>
+    </div>
+
+    <!-- Nav links -->
+    <div class="flex gap-6 text-sm font-body text-gray-700 lg:text-lg">
+      <a href="#home" class="hover:text-purple-500">Home</a>
+      <a href="#about" class="hover:text-purple-500">About</a>
+      <a href="#skills" class="hover:text-purple-500">Skills</a>
+      <a href="#project" class="hover:text-purple-500">Project</a>
+      <a href="#contact" class="hover:text-purple-500">Contact</a>
+    </div>
+
+    <!-- Social icons -->
+    <div class="flex gap-4 text-xl text-purple-400 lg:text-3xl">
+      <a href="https://github.com/nanaabaansah282-dotcom" target="_blank" class="hover:text-purple-600">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://linkedin.com/in/nana-aba-nyameyie-ansah" target="_blank" class="hover:text-purple-600">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="mailto:nanaabaansah282@gmail.com" class="hover:text-purple-600">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    </div>
+
+    <!-- Divider -->
+    <div class="w-full max-w-xs border-t border-purple-100"></div>
+
+    <!-- Copyright -->
+    <p class="text-xs text-gray-400 font-body ">
+      &copy; <span id="year"></span> Nyameyie Ansah. All rights reserved.
+    </p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
